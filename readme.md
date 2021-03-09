@@ -7,10 +7,6 @@
 <!-- ABOUT THE PROJECT -->
 ## Light weight Event dispatcher with strict type check.
 
-
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-
 1.Create Event type definition and Event type - EventDataType Mapping
    E.g. CREATE_EVENT_DATA_MAP(VelocityDataUpdate, float)
 
