@@ -70,9 +70,10 @@ class EventDispatcher : public TThreadingModel {
 
   void PublishEvent(std::type_index event_id, const void * event_data) {
     TThreadingModel::Lock();
-    auto ele = m_event_cb_map.find(event_id);
-    if ( ele != m_event_cb_map.end()) {
-      ele->second(event_data);
+    for (const auto& ele : m_event_cb_map) {
+  	  if (ele.first == event_id) {
+  	    ele.second(event_data);
+  	  }
     }
 
     TThreadingModel::UnLock();
