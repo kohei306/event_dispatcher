@@ -23,7 +23,7 @@
 #ifndef INCLUDE_EVENT_DISPATCHER_EVENT_TYPE_LIST_H_
 #define INCLUDE_EVENT_DISPATCHER_EVENT_TYPE_LIST_H_
 
-#include "event_dispatcher.h"
+#include "event_dispatcher/event_dispatcher.h"
 
 namespace event_dispatcher {
 

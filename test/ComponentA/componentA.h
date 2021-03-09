@@ -25,8 +25,9 @@
 
 #include <iostream>
 #include "event_dispatcher/dispatcher_component_interface.h"
-#include "event_dispatcher/event_type_list.h"
 #include "event_dispatcher/event_dispatcher.h"
+
+#include "event_type_list.h"
 
 class ComponentA : event_dispatcher::IDispatcherComponent {
  public:
