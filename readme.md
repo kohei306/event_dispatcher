@@ -23,4 +23,7 @@ There are many great README templates available on GitHub, however, I didn't fin
      event_dispatcher::PublishEvent<event_dispatcher::VehicleStateDataUpdateEvent>(velocity);
 
  See the ComponentA/B/C example in test for more information.
+ 
+ Used in https://www.neiro.studio/
+ 
 
